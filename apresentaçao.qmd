@@ -1,0 +1,156 @@
+---
+title: |
+  <font color='#334b61' size='0,00001' face='sans-serif' style='text-shadow: 2px 2px #931717;'> </font>
+
+format:
+  revealjs:
+    theme: serif
+    #theme: [default, custom.scss]
+    multiplex: true
+slide-number: c/t #numero de slides na apresentação
+incremental: true #mostra os slides aos poucos
+title-slide-attributes:
+ data-background-image: template/template.png
+data-background-size: cover # "cover" imagem cobrir todo o titulo
+editor: visual
+#bibliography: referencias/ref_apresentation.bib
+#bibliography-style: apa
+#csl: www/ABNT_novo.csl
+nocite: '@*'
+#css: meu-tema.css
+---
+
+## Slide 1: Introdução ao GitHub
+
+-   O que é GitHub?
+-   Por que usar o GitHub?
+-   Benefícios do controle de versão
+
+------------------------------------------------------------------------
+
+## Slide 2: Criando sua conta no GitHub
+
+-   Passo a passo para criar sua conta.
+-   Configurando seu perfil.
+-   Noções básicas de navegação.
+
+------------------------------------------------------------------------
+
+## Slide 3: Entendendo o Git
+
+-   O que é Git?
+-   Comandos básicos do Git: init, add, commit, push, pull
+-   Criando repositórios locais e remotos.
+
+------------------------------------------------------------------------
+
+## Slide 4: Conectando seu repositório local ao GitHub
+
+-   Criando um repositório remoto no GitHub.
+-   Enviando seu código local para o repositório remoto.
+-   Sincronizando as mudanças entre o repositório local e remoto.
+
+------------------------------------------------------------------------
+
+## Slide 5: Trabalhando com branches
+
+-   O que são branches?
+-   Criando, mesclando e excluindo branches.
+-   Resolvendo conflitos entre branches.
+
+------------------------------------------------------------------------
+
+## Slide 6: Introdução ao GitHub Pages
+
+-   Configurando o GitHub Pages.
+-   Criando um site estático básico.
+-   Publicando seu site.
+
+------------------------------------------------------------------------
+
+## Slide 7: Dicas e boas práticas
+
+-   Utilizando arquivos README.md
+-   Escrevendo commits descritivos.
+-   Colaborando em projetos de código aberto.
+
+## Introdução ao GitHub
+
+-   **O que é GitHub?**
+    -   Criado em 2008 , em 2009 já existiam mais de 90 mil repositórios públicos. Em 2010 a plataforma posuia mais de 1 milhão de repositórios , e 5 anos após o lançamento a plataforma ja possuia mais de 10 milhões de repositórios. Em 2018, o Github foi comprado pela microsoft por cerca de 7.5 bilhões de dólares. Logo, o github se tornou a maior plataforma de código aberto do mundo com mais de 45 milhões de repositórios e uma comunidade com mais de 40 milhões de membros.
+
+## Introdução ao GitHub
+
+-   Uma plataforma online para hospedar código-fonte e colaborar em projetos de software.
+-   Utiliza o sistema de controle de versão Git para rastrear as mudanças no código.
+-   Permite que múltiplos desenvolvedores trabalhem no mesmo projeto de forma simultânea e organizada.
+
+## Diferenças entre o Git e GitHub
+
+-   **Mas o que é GIT?**
+    -   o Git é o sistema de versionamento que mantem os arquivos integros e permite realizar operações de recuperação e alterações deles sempre mantendo cópias de todas essas ramificações realizadas
+    
+    
+## Diferenças entre o Git e GitHub
+
+::: nonincremental
+-   **e o GitHub? **
+    -   Já o Github é o local que vai centraizar o seu repositório git, hospedando na nuvem , permitindo que outras pessoas possam realizar essas mesmas alterações nesse repositório, ou seja, que elas fassam as auterações e mandem para o dono do repositório avaliar, incluir ou não no seu projeto.
+:::
+
+
+## Introdução ao GitHub
+-   **Por que usar o GitHub?**
+    -   Controle de versão eficiente: acompanhe as alterações no código, reverta para versões anteriores e trabalhe com segurança em seus projetos.
+    -   Colaboração facilitada: trabalhe em equipe, revise código, faça sugestões e melhore a qualidade do seu código.
+    
+## Introdução ao GitHub
+-   **Por que usar o GitHub?**
+    -   Portfólio online: exiba seus projetos para o mundo e construa sua reputação como desenvolvedor.
+    -   Comunidade engajada: encontre projetos de código aberto para contribuir, aprenda com outros desenvolvedores e faça networking.
+
+-   **Benefícios do controle de versão**
+    -   Histórico completo de alterações no código.
+    -   Possibilidade de reverter erros e recuperar versões anteriores do código.
+    -   Facilidade para trabalhar em equipe, mesclando as mudanças de cada desenvolvedor.
+
+------------------------------------------------------------------------
+
+## Criando sua conta no GitHub
+
+1.  **Acesse o site do GitHub:** <https://github.com/>
+2.  **Clique no botão "Sign up" no canto superior direito da tela.**
+3.  **Preencha o formulário com:**
+    -   **Nome de usuário:** escolha um nome de usuário único que te represente.
+    -   **Email:** utilize um email válido para receber notificações do GitHub.
+    -   **Senha:** crie uma senha forte com letras, números e caracteres especiais.
+4.  **Escolha um plano gratuito ou pago:** para este curso, o plano gratuito é suficiente.
+5.  **Verifique seu email e confirme sua conta:** clique no link enviado pelo GitHub para ativar sua conta.
+
+------------------------------------------------------------------------
+
+## Configurando seu Perfil
+
+1.  **Acesse seu perfil:** clique na sua foto de perfil no canto superior direito da tela e selecione "Your profile".
+2.  **Edite seu perfil:** clique no botão "Edit profile" do lado direito da tela.
+3.  **Personalize as seguintes informações:**
+    -   **Foto de Perfil (Avatar):** adicione uma imagem que te represente, pode ser uma foto sua ou um logo.
+    -   **Nome:** utilize seu nome completo ou nome profissional.
+    -   **Bio:** escreva uma breve descrição sobre você, seus interesses, habilidades e projetos em que está trabalhando.
+    -   **Localização:** adicione a cidade ou país onde você reside.
+    -   **Website/Social:** adicione links para seu site pessoal, Linkedin, Twitter, etc.
+4.  **Salve as alterações:** clique no botão "Update profile" na parte inferior da página.
+
+------------------------------------------------------------------------
+
+## Adicionando Informações com README
+
+-   **Crie um repositório com o mesmo nome do seu usuário:** este repositório será especial e exibirá o arquivo README na sua página de perfil.
+-   **Crie um arquivo README.md:** este arquivo será escrito em Markdown, uma linguagem de formatação simples.
+-   **Adicione informações relevantes ao README:**
+    -   **Apresentação:** escreva um texto sobre você, seus interesses e projetos.
+    -   **Habilidades:** liste suas habilidades técnicas e ferramentas que domina.
+    -   **Experiência:** descreva sua experiência profissional e projetos em que trabalhou.
+    -   **Contato:** inclua informações sobre como as pessoas podem entrar em contato com você.
+-   **Formate o README:** utilize a sintaxe do Markdown para formatar o texto, adicionar títulos, links, imagens e listas.
+-   **Salve o README e faça commit:** as alterações serão visíveis na sua página de perfil.
