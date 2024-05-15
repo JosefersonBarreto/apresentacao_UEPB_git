@@ -133,11 +133,19 @@ nocite: '@*'
 
 1.  **Acesse seu perfil:** clique na sua foto de perfil no canto superior direito da tela e selecione "Your profile".
 2.  **Edite seu perfil:** clique no botão "Edit profile" do lado direito da tela.
+
+## Configurando seu Perfil
 3.  **Personalize as seguintes informações:**
     -   **Foto de Perfil (Avatar):** adicione uma imagem que te represente, pode ser uma foto sua ou um logo.
     -   **Nome:** utilize seu nome completo ou nome profissional.
+    
+## Configurando seu Perfil
+3.  **Personalize as seguintes informações:**
     -   **Bio:** escreva uma breve descrição sobre você, seus interesses, habilidades e projetos em que está trabalhando.
     -   **Localização:** adicione a cidade ou país onde você reside.
+    
+## Configurando seu Perfil
+3.  **Personalize as seguintes informações:**
     -   **Website/Social:** adicione links para seu site pessoal, Linkedin, Twitter, etc.
 4.  **Salve as alterações:** clique no botão "Update profile" na parte inferior da página.
 
@@ -147,10 +155,17 @@ nocite: '@*'
 
 -   **Crie um repositório com o mesmo nome do seu usuário:** este repositório será especial e exibirá o arquivo README na sua página de perfil.
 -   **Crie um arquivo README.md:** este arquivo será escrito em Markdown, uma linguagem de formatação simples.
+
+## Adicionando Informações com README
 -   **Adicione informações relevantes ao README:**
     -   **Apresentação:** escreva um texto sobre você, seus interesses e projetos.
     -   **Habilidades:** liste suas habilidades técnicas e ferramentas que domina.
     -   **Experiência:** descreva sua experiência profissional e projetos em que trabalhou.
-    -   **Contato:** inclua informações sobre como as pessoas podem entrar em contato com você.
+    
+## Adicionando Informações com README
+-   **Contato:** inclua informações sobre como as pessoas podem entrar em contato com você.
 -   **Formate o README:** utilize a sintaxe do Markdown para formatar o texto, adicionar títulos, links, imagens e listas.
 -   **Salve o README e faça commit:** as alterações serão visíveis na sua página de perfil.
+
+
+## Mão na Massa!!!

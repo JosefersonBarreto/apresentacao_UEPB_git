@@ -73,3 +73,55 @@ You can click the Preview link to take a look at your changes.
 
 pode ser que o arquivo no Rstudio trave quando vc for fazer o commit, e mesmo que você  tente pelo Git bash irá exibir uma mensagem de erro
 impedindo que você adicione ou faça o push desses arquivos , para resolver isso , acesse a pasta  git e remova o arquivo index.lock, apos isso você consiguirá fazer o commit dos arquivos .
+
+
+
+#=================================================================================================================================
+#  links extras:
+#============================================================================================================================
+
+
+
+Guia de markdown - https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+Site de emojis - https://emojipedia.org/search/?q=bag
+Repositório do Github Stats - https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+Site de Badges 1 - https://dev.to/envoy_/150-badges-for-github-pnk
+
+Video de referência:
+https://youtu.be/TsaLQAetPLU
+
+
+
+
+
+
+
+
+
+
+# ======================================================================================================
+#                      comandos git 
+#=================================================================================
+
+git init                                                # inicia o repositório
+
+
+git remote add origin [repositório]   #adiciona o repositório da nuvem no pc local
+
+
+git branch -M main      # cria a branch master
+
+ Git Add .  # adiona todos os arquivos do repositório local a  área de transferência 
+
+ git commit -m "descrição  "  prepara esses arquivos do stage para ser transferido,adicionando informações
+
+git push -u origin main   manda os arquivos para o ambiente remoto com base na branch 
+
+
+
+####### 
+
+outro comando muito usado é o git clone .
+
+git clone [repositório]
+
