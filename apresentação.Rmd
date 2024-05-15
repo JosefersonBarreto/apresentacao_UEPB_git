@@ -1,0 +1,43 @@
+---
+title: |
+  <font color='#334b61' size='18' face='sans-serif' style='text-shadow: 2px 2px #931717;'>Curso Avançado de Quarto Potencializando a Documentação Científica com Inovação e Simplicidade📚📓📓📊📈</font>
+author:
+  - "<div style='position: absolute; left: 10px; bottom: 10px;'>Joseferson Barreto, <br /> Graduado pela  Estadual Universidade da Paraíba </div>"
+  - "<div style='position: absolute; right: 10px; bottom: 10px;'>Dr. Tiago Almeida, Universidade Estadual  da Paraíba </div>"
+format:
+  revealjs:
+    theme: serif
+    #theme: [default, custom.scss]
+    multiplex: true
+slide-number: c/t #numero de slides na apresentação
+incremental: true #mostra os slides aos poucos
+title-slide-attributes:
+ data-background-image: template/template.jpeg
+data-background-size: cover # "cover" imagem cobrir todo o titulo
+editor: visual
+#bibliography: referencias/ref_apresentation.bib
+#bibliography-style: apa
+csl: www/ABNT_novo.csl
+nocite: '@*'
+css: meu-tema.css
+---
+
+Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.
+
+Bullets
+
+When you click the Render button a document will be generated that includes:
+
+Content authored with markdown
+
+Output from executable code
+
+Code
+
+When you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+{r}
+1 + 1
+
